@@ -1,0 +1,33 @@
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #E5E5E5;
+}
+
+.container{
+    max-width: 350px;
+    background-color: #14213D;
+    
+}
+
+
+
+.container .screen input:focus{
+    outline: none;
+}
+
+.container .num,
+.container .sign,
+.container .clear,
+.container .equal{
+    background-color: #E5E5E5;
+    font-size: 24px;
+    font-weight: bold;
+    color: #14213D;
+}
+
+.container .equal{
+    background-color: #FCA311;
+}
+
